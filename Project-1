@@ -1,0 +1,8 @@
+lucky_number = 4678
+for i in range(lucky_number):
+    i = int(input("Enter lottery number (4 digit) : "))
+    if  i == lucky_number :
+        print("Congratulations , You won the Rs. 3,00,000")
+        break
+    else:
+        print("Bad luck , Please try next time")  
